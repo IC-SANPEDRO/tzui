@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background: #000;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height: 1000vh;
+    box-sizing: border-box ;
+    font-family: "system-ul", sans-sherif;
+    margin: 20px 0 50px;
+    
+   
+    background-color: whitesmoke;
+   
+
+}
+.container{
+    position:relative;
+    overflow: hidden;
+    min-height: 480px;
+    width: 768px;
+    max-width: 100%;
+    background-color: #fff;
+    
+    display: flex;
+
+    box-shadow: #000;
+    border-radius: 10px;
+    
+
+}
+.form-container{
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+
+.sign-up-container{
+    left: 0;
+    width: 50%;
+
+}
+
+form{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+}
+
+input{
+    background-color: goldenrod;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0px;
+    width: 100%;
+
+}
+button{
+    background-color: goldenrod;
+    color: black;
+    border: 1px solid goldenrod;
+    height: 16px;
+    font-style: 16px;
+    
+    font-weight: bold;
+    padding: 16px 32px;
+    margin-top: 24px;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    border-color: rgba(0, 32, 63, .4b);
+    transition: .2s ;
+}
+button:hover{
+    cursor: pointer;
+    background-color: gold;
+    color: white;
+}
+.social-container{
+    margin: 24px 0;
+}
+
+.social-container a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 4px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #000;
+    border: 1px solid goldenrod;
+}
+.log-in-container{
+    left: 0;
+    width: 50%;
+    z-index: 2;
+}
